@@ -1,26 +1,19 @@
-# Welcome to your Jupyter Book
+---
+title: 24-090 Ahmad Arfani Kecerdasan-Komputasional
+site:
+  hide_outline: true
+  hide_toc: true
+  hide_title_block: true
+---
 
-This is a small sample book to give you a feel for how book content is
-structured.
+<div style="text-align: center", font-size: 50.2em>
+<h1>
+Catatan Mata Kuliah Kecerdasan Komputasional
+</h1>
+</div>
 
-:::{note}
-Here is a note!
-:::
-
-And here is a code block:
-
-```
-e = mc^2
-```
-
-Check out the content pages bundled with this sample book to see more examples.
-
-You can also add figures to your book.
-
-:::{figure} https://assets.gishub.org/images/book-cover.png
-:label: gispro-book-cover
-:alt: GISPro Book Cover
-:align: center
-
-GIS Programming with Python Book Cover.
-:::
+<div style="text-align: center", font-size: 10.2em>
+<b>Ahmad Arfani</b><br>
+<b>NIM 240411100090</b><br>
+<b>Kelas IF4F</b>
+</div>
