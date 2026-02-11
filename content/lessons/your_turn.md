@@ -1,5 +1,6 @@
 (lessons-start)=
-# Create your first Jupyter Book 2
+
+# Materi 3
 
 Now it's your turn to get going creating content in a Jupyter Book.
 
@@ -10,6 +11,7 @@ There are some conditions to meet before you can get started:
 - A little bit of patience, it's a steep learning curve.
 
 Optional:
+
 - [Software](#software) to write your code in, such as Jupyter Lab or [Visual Studio Code](https://code.visualstudio.com/) (VSC).
 
 :::{tip}
