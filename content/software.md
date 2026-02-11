@@ -1,7 +1,6 @@
-(software)=
-# Software
+# Materi 5
 
-This page provides an overview of commonly used software, with limited instructions for using them. 
+This page provides an overview of commonly used software, with limited instructions for using them.
 
 ## Integrated Development Environment (IDE)
 
@@ -25,9 +24,11 @@ Note that while this IDE can be used for many of the exercises in this workshop,
 You can find out more about this useful tool [here](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor).
 
 ### VSC
-A popular code editor is [Visual Studio Code](https://code.visualstudio.com/) (VSC). It allows you to program in different languages, where it recognizes the commands in that language and adjusts the FONT so that it becomes better readable. Moreover, it allows you to install various packages (such as Jupyter Notebook). It also integrates GIT and allows to code using Co-Pilot, an AI pair programmer. We advise to use VSC as it allows for multiple programming languages. 
+
+A popular code editor is [Visual Studio Code](https://code.visualstudio.com/) (VSC). It allows you to program in different languages, where it recognizes the commands in that language and adjusts the FONT so that it becomes better readable. Moreover, it allows you to install various packages (such as Jupyter Notebook). It also integrates GIT and allows to code using Co-Pilot, an AI pair programmer. We advise to use VSC as it allows for multiple programming languages.
 
 #### Terminal
+
 The terminal in VSC is a tool that lets you interact with your computer's command line directly within the editor. It's used to run commands, scripts, or programs without leaving the coding environment. For example, you can compile code, run a development server, install dependencies, or manage files. It's very helpful for developers because it allows you to code and execute commands in one place, streamlining your workflow.
 
 ```{figure} figures/VSCterminal.*
@@ -39,30 +40,32 @@ The VSC terminal to interact with the computer using the command line
 ```
 
 #### Extensions
+
 Extensions in Visual Studio Code (VSC) are powerful add-ons that enhance the functionality of the editor by providing additional features, tools, and support for various programming languages, frameworks, and technologies. Extensions allow you to customize and tailor VSC to suit your specific development needs.
 
 ##### How to Install Extensions:
+
 - Access Extensions View:
-    * Click on the Extensions icon in the Activity Bar on the side (or press Ctrl+Shift+X / Cmd+Shift+X).
+  - Click on the Extensions icon in the Activity Bar on the side (or press Ctrl+Shift+X / Cmd+Shift+X).
 
 - Search for Extensions:
-    * In the Extensions view, you can search for the name or keywords related to the extension you want to install.
+  - In the Extensions view, you can search for the name or keywords related to the extension you want to install.
 
 - Install the Extension:
-    * Click the Install button on the desired extension, and it will automatically be added to VSC.
+  - Click the Install button on the desired extension, and it will automatically be added to VSC.
 
 - Manage Installed Extensions:
-    * You can view, enable, disable, or uninstall extensions from the same Extensions view.
+  - You can view, enable, disable, or uninstall extensions from the same Extensions view.
 
 ##### Popular Extensions in VSC:
-* Python: Provides linting, debugging, IntelliSense, and more for Python development.
-* Jupyter: Provides support for Jupyter notebooks within VSC.
-* Arduino: Provides support for programming in Arduino.
-* Code Spell Checker: Has a great spelling checker, also available for Dutch
-* Github Copilot: Your AI pair programmer. Helps you in writing code.
-* LaTeX workshop: LaTeX coding, preview, compiling.
-* MyST-Markdown: The official Markdown syntax extension
 
+- Python: Provides linting, debugging, IntelliSense, and more for Python development.
+- Jupyter: Provides support for Jupyter notebooks within VSC.
+- Arduino: Provides support for programming in Arduino.
+- Code Spell Checker: Has a great spelling checker, also available for Dutch
+- Github Copilot: Your AI pair programmer. Helps you in writing code.
+- LaTeX workshop: LaTeX coding, preview, compiling.
+- MyST-Markdown: The official Markdown syntax extension
 
 ## Virtual Environment and Dependencies
 
@@ -83,18 +86,18 @@ Note that only `jupyter-book` is needed for building the book as described in mo
 
 To install these dependencies ensure `requirements.txt` is in your working directory and run `pip install -r requirements.txt`.
 
-| Package | Description |
-|---|---|
-| jupyter-book>=2.0.0 | Tool to build publication-quality books and documentation from Jupyter notebooks and Markdown. |
-| jupyterlab | Web-based interactive development environment for notebooks, code, and data. |
-| ipykernel | IPython kernel for Jupyter, enables running Python code in notebooks. Necessary for VSC to edit and execute notebook files. |
-| ipywidgets | Interactive HTML widgets for Jupyter notebooks and JupyterLab. |
-| jupyter | A metapackage that requires jupyterlab, ipywidgets and ipykernel, amongst other packages. |
-| mystmd | MyST Markdown support for Jupyter Book / Sphinx. |
-| jupyterlab_myst | JupyterLab extension to render MyST Markdown and improve notebook/Markdown integration. |
-| numpy | Core library for numerical computing with arrays and linear algebra. |
-| matplotlib | 2D plotting library for generating figures and visualizations. |
-| scipy | Scientific computing library. |
+| Package             | Description                                                                                                                 |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| jupyter-book>=2.0.0 | Tool to build publication-quality books and documentation from Jupyter notebooks and Markdown.                              |
+| jupyterlab          | Web-based interactive development environment for notebooks, code, and data.                                                |
+| ipykernel           | IPython kernel for Jupyter, enables running Python code in notebooks. Necessary for VSC to edit and execute notebook files. |
+| ipywidgets          | Interactive HTML widgets for Jupyter notebooks and JupyterLab.                                                              |
+| jupyter             | A metapackage that requires jupyterlab, ipywidgets and ipykernel, amongst other packages.                                   |
+| mystmd              | MyST Markdown support for Jupyter Book / Sphinx.                                                                            |
+| jupyterlab_myst     | JupyterLab extension to render MyST Markdown and improve notebook/Markdown integration.                                     |
+| numpy               | Core library for numerical computing with arrays and linear algebra.                                                        |
+| matplotlib          | 2D plotting library for generating figures and visualizations.                                                              |
+| scipy               | Scientific computing library.                                                                                               |
 
 ## PDF Generation with Typst
 

@@ -1,5 +1,4 @@
-(advanced-start)=
-# Advanced start 🌶 
+# Materi 4
 
 The Jupyter Book and MyST CLIs both include tools to help get started writing quickly. You might want to follow this approach if:
 
@@ -45,7 +44,6 @@ jupyter-book start
 ```
 
 Open [`http://localhost:3000`](http://localhost:3000) in your browser to see the output.
-
 
 ## Edit the content
 
