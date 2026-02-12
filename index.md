@@ -6,10 +6,10 @@ site:
   hide_title_block: true
 ---
 
-<div style="text-align: center", font-size: 50.2em>
-<h1>
-Catatan Mata Kuliah Kecerdasan Komputasional
-</h1>
+<div style="text-align: center">
+
+# Catatan Mata Kuliah Kecerdasan Komputasional
+
 </div>
 
 <div style="text-align: center", font-size: 10.2em>
